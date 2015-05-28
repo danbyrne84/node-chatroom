@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@section scripts
+{
+    <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/client.js"></script>
+    <link rel="stylesheet" href="/Content/style.css"/>
+}
+
+<h2>Chatroom</h2>
+
+<div class="login-container">
+    <label>Username <input class="nickname"/></label><button class="login">Login</button>
+</div>
+
+<div class="room-container" style="display:none">
+    <div class="room">
+        <ul class="messages">
+            
+        </ul>
+    </div>
+    <div class="controls-container">
+        <input type="text" class="textinput"/><button class="submit">Submit</button>
+    </div>
+</div>

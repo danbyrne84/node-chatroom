@@ -1,0 +1,38 @@
+﻿body {
+}
+
+div.room {
+    height: 500px;
+    width: 500px;
+    border: 1px solid silver;
+}
+
+div.login {
+    padding-bottom: 10px;
+}
+
+div.login-container input {
+    margin-right: 10px;
+}
+
+div.controls-container input {
+    width: 430px;
+}
+
+div.controls-container {
+    margin-top: 10px;
+}
+
+div.controls-container input {
+    margin-right: 10px;
+}
+
+div.room-container div.room ul {
+    list-style-image: url("/Content/images/chaticon.png");
+    height: 500px;
+    overflow: none;
+}
+
+div.room {
+    overflow: scroll;
+}
